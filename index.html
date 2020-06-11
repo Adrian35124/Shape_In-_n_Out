@@ -28,7 +28,6 @@
           placeholder="Radius px"
         />
       </div>
-
       <div class="input-group mb-3">
         <div class="input-group-prepend">
           <button class="btn btn-success btn-large" onclick="creatingSquare()"> 
@@ -37,21 +36,47 @@
         </div>
         <input
           type="text"
-          class="form-control squareLength"
+          class="form-control sideLength"
           placeholder="Side Length px"
         />
       </div>
+      <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button class="btn btn-success btn-large" onclick="creatingRectangle()"> 
+         Rectangle
+        </button>
+      </div>
+      <input
+        type="text"
+        class="form-control rectangleHeight"
+        placeholder="Height px"
+      />
+      <input
+        type="text"
+        class="form-control rectangleWidth"
+        placeholder="Width px"
+      />
     </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button class="btn btn-success btn-large" onclick=""> 
+         Triangle
+        </button>
+      </div>
+      <input
+        type="text"
+        class="form-control triangleHeight"
+        placeholder="Height px"
+      />
 
-    <div class="container shapeBox"></div>
+    </div>
+    
+  </div>
+
+    <div class="container shapeBox" id="shapeContainer"></div>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"
     ></script>
     <script

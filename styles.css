@@ -1,0 +1,22 @@
+.inputBox {
+    border: 5px solid black;
+}
+
+.shapeBox {
+    display: flex;
+    border: 5px solid black;
+    height: 600px;
+    width: 600px;
+}
+.circleDiv {
+    position: absolute;
+}
+.squareDiv {
+    position: absolute;
+}
+.rectangleDiv {
+    position: absolute;
+}
+.triangleDiv {
+    position: absolute;
+}
